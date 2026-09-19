@@ -358,88 +358,6 @@
                               ]
                             },
                             {
-                              "type": "frame",
-                              "id": "USOS4",
-                              "name": "차선",
-                              "width": "fill_container",
-                              "gap": "$sp-2",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "sjt1H",
-                                  "name": "dash",
-                                  "width": "fill_container",
-                                  "height": 4,
-                                  "fill": "$mint",
-                                  "cornerRadius": "$r-full"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "E4WM2m",
-                                  "name": "dash",
-                                  "width": "fill_container",
-                                  "height": 4,
-                                  "fill": "$mint",
-                                  "cornerRadius": "$r-full"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "WPyLm",
-                                  "name": "dash",
-                                  "width": "fill_container",
-                                  "height": 4,
-                                  "fill": "$mint",
-                                  "cornerRadius": "$r-full"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "xZjCc",
-                                  "name": "dash",
-                                  "width": "fill_container",
-                                  "height": 4,
-                                  "fill": "#FFFFFF2E",
-                                  "cornerRadius": "$r-full"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "Rbjex",
-                                  "name": "dash",
-                                  "width": "fill_container",
-                                  "height": 4,
-                                  "fill": "#FFFFFF2E",
-                                  "cornerRadius": "$r-full"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "sy1ul",
-                                  "name": "dash",
-                                  "width": "fill_container",
-                                  "height": 4,
-                                  "fill": "#FFFFFF2E",
-                                  "cornerRadius": "$r-full"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "e8rOxM",
-                                  "name": "dash",
-                                  "width": "fill_container",
-                                  "height": 4,
-                                  "fill": "#FFFFFF2E",
-                                  "cornerRadius": "$r-full"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "NncTD",
-                                  "name": "dash",
-                                  "width": "fill_container",
-                                  "height": 4,
-                                  "fill": "#FFFFFF2E",
-                                  "cornerRadius": "$r-full"
-                                }
-                              ]
-                            },
-                            {
                               "type": "text",
                               "id": "tcRNI",
                               "name": "약국에 전화 돌리는 일, 한 ",
@@ -802,20 +720,8 @@
                             "$sp-6",
                             0
                           ],
-                          "justifyContent": "end",
+                          "justifyContent": "center",
                           "children": [
-                            {
-                              "type": "text",
-                              "id": "EmBRr",
-                              "name": "01",
-                              "fill": "#FFFFFF1F",
-                              "content": "01",
-                              "lineHeight": "$lh-number",
-                              "fontFamily": "$font-body",
-                              "fontSize": 120,
-                              "fontWeight": "$fw-medium",
-                              "letterSpacing": -5
-                            },
                             {
                               "type": "frame",
                               "id": "wcsMA",
@@ -1119,20 +1025,8 @@
                             "$sp-6",
                             0
                           ],
-                          "justifyContent": "end",
+                          "justifyContent": "center",
                           "children": [
-                            {
-                              "type": "text",
-                              "id": "YwPC3",
-                              "name": "02",
-                              "fill": "#FFFFFF1F",
-                              "content": "02",
-                              "lineHeight": "$lh-number",
-                              "fontFamily": "$font-body",
-                              "fontSize": 120,
-                              "fontWeight": "$fw-medium",
-                              "letterSpacing": -5
-                            },
                             {
                               "type": "frame",
                               "id": "CUhhw",
@@ -1436,20 +1330,8 @@
                             "$sp-6",
                             0
                           ],
-                          "justifyContent": "end",
+                          "justifyContent": "center",
                           "children": [
-                            {
-                              "type": "text",
-                              "id": "IaVh4",
-                              "name": "03",
-                              "fill": "#FFFFFF1F",
-                              "content": "03",
-                              "lineHeight": "$lh-number",
-                              "fontFamily": "$font-body",
-                              "fontSize": 120,
-                              "fontWeight": "$fw-medium",
-                              "letterSpacing": -5
-                            },
                             {
                               "type": "frame",
                               "id": "NxMe3",
@@ -2366,23 +2248,13 @@
                                           "type": "text",
                                           "id": "zyWeX",
                                           "name": "3",
-                                          "fill": "$mint",
-                                          "content": "3",
-                                          "lineHeight": "$lh-number",
-                                          "fontFamily": "$font-body",
-                                          "fontSize": "$fs-hero",
-                                          "fontWeight": "$fw-bold"
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "daHI5",
-                                          "name": "/ 5곳 응답",
                                           "fill": "$on-dark",
-                                          "content": "/ 5곳 응답",
-                                          "lineHeight": "$lh-body",
+                                          "content": "5곳 중 3곳 응답",
+                                          "lineHeight": "$lh-title",
                                           "fontFamily": "$font-body",
-                                          "fontSize": "$fs-body",
-                                          "fontWeight": "$fw-medium"
+                                          "fontSize": "$fs-title",
+                                          "fontWeight": "$fw-bold",
+                                          "letterSpacing": "$ls-title"
                                         }
                                       ]
                                     }
@@ -2564,7 +2436,7 @@
                                   "name": "Box",
                                   "width": 56,
                                   "height": 56,
-                                  "fill": "$mint",
+                                  "fill": "$mint-soft",
                                   "cornerRadius": "$r-lg",
                                   "justifyContent": "center",
                                   "alignItems": "center",
@@ -2577,7 +2449,7 @@
                                       "height": 24,
                                       "icon": "camera-fill",
                                       "library": "$icon-lib",
-                                      "fill": "$ink"
+                                      "fill": "$teal-text"
                                     }
                                   ]
                                 }
@@ -2781,7 +2653,7 @@
                                   "name": "Box",
                                   "width": 56,
                                   "height": 56,
-                                  "fill": "$sky",
+                                  "fill": "$sky-soft",
                                   "cornerRadius": "$r-lg",
                                   "justifyContent": "center",
                                   "alignItems": "center",
@@ -2794,7 +2666,7 @@
                                       "height": 24,
                                       "icon": "magnifying-glass-fill",
                                       "library": "$icon-lib",
-                                      "fill": "$ink"
+                                      "fill": "$info-text"
                                     }
                                   ]
                                 }
@@ -7602,17 +7474,6 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "FClgl",
-                              "name": "0",
-                              "fill": "$line",
-                              "content": "0",
-                              "lineHeight": "$lh-number",
-                              "fontFamily": "$font-body",
-                              "fontSize": "$fs-display",
-                              "fontWeight": "$fw-medium"
-                            },
-                            {
-                              "type": "text",
                               "id": "stkPQ",
                               "name": "이 이름의 약을 찾지 못했어요",
                               "fill": "$text",
@@ -8981,7 +8842,7 @@
                                   "type": "ellipse",
                                   "id": "htvxf",
                                   "name": "radio",
-                                  "fill": "$mint",
+                                  "fill": "$surface",
                                   "width": 20,
                                   "height": 20,
                                   "stroke": "$ink",
@@ -11472,19 +11333,20 @@
                           "type": "frame",
                           "id": "zxaq3",
                           "name": "대상 수",
-                          "gap": "$sp-2",
-                          "alignItems": "end",
+                          "layout": "vertical",
+                          "gap": "$sp-1",
                           "children": [
                             {
                               "type": "text",
                               "id": "dfrdY",
                               "name": "5",
-                              "fill": "$mint",
-                              "content": "5",
-                              "lineHeight": "$lh-number",
+                              "fill": "$on-dark",
+                              "content": "참여 약국 5곳",
+                              "lineHeight": "$lh-title",
                               "fontFamily": "$font-body",
-                              "fontSize": "$fs-display",
-                              "fontWeight": "$fw-bold"
+                              "fontSize": "$fs-title",
+                              "fontWeight": "$fw-bold",
+                              "letterSpacing": "$ls-title"
                             },
                             {
                               "type": "frame",
@@ -11494,24 +11356,13 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "h9nZU",
-                                  "name": "곳의 참여 약국",
-                                  "fill": "$on-dark",
-                                  "content": "곳의 참여 약국",
-                                  "lineHeight": "$lh-body",
-                                  "fontFamily": "$font-body",
-                                  "fontSize": "$fs-body",
-                                  "fontWeight": "$fw-medium"
-                                },
-                                {
-                                  "type": "text",
                                   "id": "TtNaZ",
                                   "name": "등록 운영시간 기준 영업 중",
                                   "fill": "$on-dark-2",
                                   "content": "등록 운영시간 기준 영업 중",
                                   "lineHeight": "$lh-body",
                                   "fontFamily": "$font-body",
-                                  "fontSize": "$fs-cap",
+                                  "fontSize": "$fs-sub",
                                   "fontWeight": "$fw-regular"
                                 }
                               ]
@@ -12187,9 +12038,9 @@
                               "content": "8:42",
                               "lineHeight": "$lh-number",
                               "fontFamily": "$font-body",
-                              "fontSize": 88,
+                              "fontSize": "$fs-display",
                               "fontWeight": "$fw-medium",
-                              "letterSpacing": -3
+                              "letterSpacing": "$ls-display"
                             }
                           ]
                         },
@@ -12790,9 +12641,9 @@
                               "content": "8:42",
                               "lineHeight": "$lh-number",
                               "fontFamily": "$font-body",
-                              "fontSize": 88,
+                              "fontSize": "$fs-display",
                               "fontWeight": "$fw-medium",
-                              "letterSpacing": -3
+                              "letterSpacing": "$ls-display"
                             }
                           ]
                         },
@@ -16505,17 +16356,6 @@
                             0
                           ],
                           "children": [
-                            {
-                              "type": "text",
-                              "id": "du5zP",
-                              "name": "0",
-                              "fill": "$line",
-                              "content": "0",
-                              "lineHeight": "$lh-number",
-                              "fontFamily": "$font-body",
-                              "fontSize": "$fs-display",
-                              "fontWeight": "$fw-medium"
-                            },
                             {
                               "type": "text",
                               "id": "AGYS4",
@@ -20235,20 +20075,20 @@
                               "type": "frame",
                               "id": "T2IHy",
                               "name": "큰 숫자",
-                              "gap": "$sp-2",
-                              "alignItems": "end",
+                              "layout": "vertical",
+                              "gap": "$sp-1",
                               "children": [
                                 {
                                   "type": "text",
                                   "id": "cW9qi",
                                   "name": "4",
-                                  "fill": "$mint",
-                                  "content": "4",
-                                  "lineHeight": "$lh-number",
+                                  "fill": "$on-dark",
+                                  "content": "4분 전 응답",
+                                  "lineHeight": "$lh-title",
                                   "fontFamily": "$font-body",
-                                  "fontSize": "$fs-display",
+                                  "fontSize": "$fs-h1",
                                   "fontWeight": "$fw-bold",
-                                  "letterSpacing": "$ls-display"
+                                  "letterSpacing": "$ls-title"
                                 },
                                 {
                                   "type": "frame",
@@ -20258,24 +20098,13 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "l9qqFv",
-                                      "name": "분 전 응답",
-                                      "fill": "$on-dark",
-                                      "content": "분 전 응답",
-                                      "lineHeight": "$lh-body",
-                                      "fontFamily": "$font-body",
-                                      "fontSize": "$fs-body",
-                                      "fontWeight": "$fw-medium"
-                                    },
-                                    {
-                                      "type": "text",
                                       "id": "t6dCqU",
                                       "name": "마지막 확인 시각",
                                       "fill": "$on-dark-2",
                                       "content": "마지막 확인 시각",
                                       "lineHeight": "$lh-body",
                                       "fontFamily": "$font-body",
-                                      "fontSize": "$fs-cap",
+                                      "fontSize": "$fs-sub",
                                       "fontWeight": "$fw-regular"
                                     }
                                   ]
@@ -20747,20 +20576,20 @@
                               "type": "frame",
                               "id": "V3uxx",
                               "name": "큰 숫자",
-                              "gap": "$sp-2",
-                              "alignItems": "end",
+                              "layout": "vertical",
+                              "gap": "$sp-1",
                               "children": [
                                 {
                                   "type": "text",
                                   "id": "yuzle",
                                   "name": "2",
-                                  "fill": "$mint",
-                                  "content": "2",
-                                  "lineHeight": "$lh-number",
+                                  "fill": "$on-dark",
+                                  "content": "2일 전 등록",
+                                  "lineHeight": "$lh-title",
                                   "fontFamily": "$font-body",
-                                  "fontSize": "$fs-display",
+                                  "fontSize": "$fs-h1",
                                   "fontWeight": "$fw-bold",
-                                  "letterSpacing": "$ls-display"
+                                  "letterSpacing": "$ls-title"
                                 },
                                 {
                                   "type": "frame",
@@ -20770,24 +20599,13 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "vNvTt",
-                                      "name": "일 전 등록",
-                                      "fill": "$on-dark",
-                                      "content": "일 전 등록",
-                                      "lineHeight": "$lh-body",
-                                      "fontFamily": "$font-body",
-                                      "fontSize": "$fs-body",
-                                      "fontWeight": "$fw-medium"
-                                    },
-                                    {
-                                      "type": "text",
                                       "id": "XJYyQ",
                                       "name": "자동 응답",
                                       "fill": "$on-dark-2",
                                       "content": "자동 응답",
                                       "lineHeight": "$lh-body",
                                       "fontFamily": "$font-body",
-                                      "fontSize": "$fs-cap",
+                                      "fontSize": "$fs-sub",
                                       "fontWeight": "$fw-regular"
                                     }
                                   ]
@@ -21953,20 +21771,20 @@
                               "type": "frame",
                               "id": "QjRRA",
                               "name": "큰 숫자",
-                              "gap": "$sp-2",
-                              "alignItems": "end",
+                              "layout": "vertical",
+                              "gap": "$sp-1",
                               "children": [
                                 {
                                   "type": "text",
                                   "id": "cJp5j",
                                   "name": "20",
-                                  "fill": "$mint",
-                                  "content": "20",
-                                  "lineHeight": "$lh-number",
+                                  "fill": "$on-dark",
+                                  "content": "20분 후 방문 예정",
+                                  "lineHeight": "$lh-title",
                                   "fontFamily": "$font-body",
-                                  "fontSize": "$fs-display",
+                                  "fontSize": "$fs-h1",
                                   "fontWeight": "$fw-bold",
-                                  "letterSpacing": "$ls-display"
+                                  "letterSpacing": "$ls-title"
                                 },
                                 {
                                   "type": "frame",
@@ -21976,24 +21794,13 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "Tf9Bz",
-                                      "name": "분 후 방문 예정",
-                                      "fill": "$on-dark",
-                                      "content": "분 후 방문 예정",
-                                      "lineHeight": "$lh-body",
-                                      "fontFamily": "$font-body",
-                                      "fontSize": "$fs-body",
-                                      "fontWeight": "$fw-medium"
-                                    },
-                                    {
-                                      "type": "text",
                                       "id": "VEVzi",
                                       "name": "진행 중",
                                       "fill": "$on-dark-2",
                                       "content": "진행 중",
                                       "lineHeight": "$lh-body",
                                       "fontFamily": "$font-body",
-                                      "fontSize": "$fs-cap",
+                                      "fontSize": "$fs-sub",
                                       "fontWeight": "$fw-regular"
                                     }
                                   ]
@@ -22677,20 +22484,20 @@
                           "type": "frame",
                           "id": "JVT1C",
                           "name": "큰 숫자",
-                          "gap": "$sp-2",
-                          "alignItems": "end",
+                          "layout": "vertical",
+                          "gap": "$sp-1",
                           "children": [
                             {
                               "type": "text",
                               "id": "yB6ed",
                               "name": "2",
-                              "fill": "$mint",
-                              "content": "2",
-                              "lineHeight": "$lh-number",
+                              "fill": "$on-dark",
+                              "content": "2건 응답 대기",
+                              "lineHeight": "$lh-title",
                               "fontFamily": "$font-body",
-                              "fontSize": "$fs-display",
+                              "fontSize": "$fs-h1",
                               "fontWeight": "$fw-bold",
-                              "letterSpacing": "$ls-display"
+                              "letterSpacing": "$ls-title"
                             },
                             {
                               "type": "frame",
@@ -22700,24 +22507,13 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "OqXND",
-                                  "name": "건 응답 대기",
-                                  "fill": "$on-dark",
-                                  "content": "건 응답 대기",
-                                  "lineHeight": "$lh-body",
-                                  "fontFamily": "$font-body",
-                                  "fontSize": "$fs-body",
-                                  "fontWeight": "$fw-medium"
-                                },
-                                {
-                                  "type": "text",
                                   "id": "skv4e",
                                   "name": "가장 급한 콜 4분 남음",
                                   "fill": "$on-dark-2",
                                   "content": "가장 급한 콜 4분 남음",
                                   "lineHeight": "$lh-body",
                                   "fontFamily": "$font-body",
-                                  "fontSize": "$fs-cap",
+                                  "fontSize": "$fs-sub",
                                   "fontWeight": "$fw-regular"
                                 }
                               ]
@@ -22902,7 +22698,7 @@
                                           "type": "frame",
                                           "id": "y0JFFV",
                                           "name": "Chip",
-                                          "fill": "$ink",
+                                          "fill": "$mint-soft",
                                           "cornerRadius": "$r-sm",
                                           "padding": [
                                             "$sp-1",
@@ -22913,7 +22709,7 @@
                                               "type": "text",
                                               "id": "a1w93B",
                                               "name": "처방약",
-                                              "fill": "$on-dark",
+                                              "fill": "$teal-text",
                                               "content": "처방약",
                                               "lineHeight": "$lh-body",
                                               "fontFamily": "$font-body",
@@ -22926,7 +22722,7 @@
                                           "type": "frame",
                                           "id": "gC3JH",
                                           "name": "Chip",
-                                          "fill": "$mint-soft",
+                                          "fill": "$ink",
                                           "cornerRadius": "$r-sm",
                                           "padding": [
                                             "$sp-1",
@@ -22937,7 +22733,7 @@
                                               "type": "text",
                                               "id": "ymGa4",
                                               "name": "새 콜",
-                                              "fill": "$teal-text",
+                                              "fill": "$on-dark",
                                               "content": "새 콜",
                                               "lineHeight": "$lh-body",
                                               "fontFamily": "$font-body",
@@ -23046,7 +22842,7 @@
                                           "type": "frame",
                                           "id": "p1OHla",
                                           "name": "Chip",
-                                          "fill": "$ink",
+                                          "fill": "$sky-soft",
                                           "cornerRadius": "$r-sm",
                                           "padding": [
                                             "$sp-1",
@@ -23057,7 +22853,7 @@
                                               "type": "text",
                                               "id": "nsSeF",
                                               "name": "일반약",
-                                              "fill": "$on-dark",
+                                              "fill": "$info-text",
                                               "content": "일반약",
                                               "lineHeight": "$lh-body",
                                               "fontFamily": "$font-body",
@@ -23179,7 +22975,7 @@
                                           "type": "frame",
                                           "id": "Ytzfg",
                                           "name": "Chip",
-                                          "fill": "$ink",
+                                          "fill": "$mint-soft",
                                           "cornerRadius": "$r-sm",
                                           "padding": [
                                             "$sp-1",
@@ -23190,7 +22986,7 @@
                                               "type": "text",
                                               "id": "N5OhB",
                                               "name": "처방약",
-                                              "fill": "$on-dark",
+                                              "fill": "$teal-text",
                                               "content": "처방약",
                                               "lineHeight": "$lh-body",
                                               "fontFamily": "$font-body",
@@ -23203,8 +22999,10 @@
                                           "type": "frame",
                                           "id": "CXRtp",
                                           "name": "Chip",
-                                          "fill": "$sky-soft",
+                                          "fill": "$clear",
                                           "cornerRadius": "$r-sm",
+                                          "stroke": "$line",
+                                          "strokeWidth": "$stroke-hair",
                                           "padding": [
                                             "$sp-1",
                                             "$sp-2"
@@ -23214,7 +23012,7 @@
                                               "type": "text",
                                               "id": "jJWHT",
                                               "name": "자동 응답됨",
-                                              "fill": "#0B5E85",
+                                              "fill": "$text-2",
                                               "content": "자동 응답됨",
                                               "lineHeight": "$lh-body",
                                               "fontFamily": "$font-body",
@@ -23312,7 +23110,7 @@
                                           "type": "frame",
                                           "id": "d6uyT",
                                           "name": "Chip",
-                                          "fill": "$ink",
+                                          "fill": "$mint-soft",
                                           "cornerRadius": "$r-sm",
                                           "padding": [
                                             "$sp-1",
@@ -23323,7 +23121,7 @@
                                               "type": "text",
                                               "id": "WGE5r",
                                               "name": "처방약",
-                                              "fill": "$on-dark",
+                                              "fill": "$teal-text",
                                               "content": "처방약",
                                               "lineHeight": "$lh-body",
                                               "fontFamily": "$font-body",
@@ -23447,7 +23245,7 @@
                                           "type": "frame",
                                           "id": "DYPtg",
                                           "name": "Chip",
-                                          "fill": "$ink",
+                                          "fill": "$sky-soft",
                                           "cornerRadius": "$r-sm",
                                           "padding": [
                                             "$sp-1",
@@ -23458,7 +23256,7 @@
                                               "type": "text",
                                               "id": "qEcPU",
                                               "name": "일반약",
-                                              "fill": "$on-dark",
+                                              "fill": "$info-text",
                                               "content": "일반약",
                                               "lineHeight": "$lh-body",
                                               "fontFamily": "$font-body",
@@ -23967,20 +23765,20 @@
                           "type": "frame",
                           "id": "w2XdJ",
                           "name": "큰 숫자",
-                          "gap": "$sp-2",
-                          "alignItems": "end",
+                          "layout": "vertical",
+                          "gap": "$sp-1",
                           "children": [
                             {
                               "type": "text",
                               "id": "Z62YCc",
                               "name": "7",
-                              "fill": "$mint",
-                              "content": "7",
-                              "lineHeight": "$lh-number",
+                              "fill": "$on-dark",
+                              "content": "7분 남음",
+                              "lineHeight": "$lh-title",
                               "fontFamily": "$font-body",
-                              "fontSize": "$fs-display",
+                              "fontSize": "$fs-h1",
                               "fontWeight": "$fw-bold",
-                              "letterSpacing": "$ls-display"
+                              "letterSpacing": "$ls-title"
                             },
                             {
                               "type": "frame",
@@ -23990,24 +23788,13 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "mTE9c",
-                                  "name": "분 남음",
-                                  "fill": "$on-dark",
-                                  "content": "분 남음",
-                                  "lineHeight": "$lh-body",
-                                  "fontFamily": "$font-body",
-                                  "fontSize": "$fs-body",
-                                  "fontWeight": "$fw-medium"
-                                },
-                                {
-                                  "type": "text",
                                   "id": "D25XX",
                                   "name": "약 3개 재고 문의",
                                   "fill": "$on-dark-2",
                                   "content": "약 3개 재고 문의",
                                   "lineHeight": "$lh-body",
                                   "fontFamily": "$font-body",
-                                  "fontSize": "$fs-cap",
+                                  "fontSize": "$fs-sub",
                                   "fontWeight": "$fw-regular"
                                 }
                               ]
@@ -24768,20 +24555,20 @@
                           "type": "frame",
                           "id": "IbtBJ",
                           "name": "큰 숫자",
-                          "gap": "$sp-2",
-                          "alignItems": "end",
+                          "layout": "vertical",
+                          "gap": "$sp-1",
                           "children": [
                             {
                               "type": "text",
                               "id": "p05mzJ",
                               "name": "7",
-                              "fill": "$mint",
-                              "content": "7",
-                              "lineHeight": "$lh-number",
+                              "fill": "$on-dark",
+                              "content": "7분 남음",
+                              "lineHeight": "$lh-title",
                               "fontFamily": "$font-body",
-                              "fontSize": "$fs-display",
+                              "fontSize": "$fs-h1",
                               "fontWeight": "$fw-bold",
-                              "letterSpacing": "$ls-display"
+                              "letterSpacing": "$ls-title"
                             },
                             {
                               "type": "frame",
@@ -24791,24 +24578,13 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "nOEXl",
-                                  "name": "분 남음",
-                                  "fill": "$on-dark",
-                                  "content": "분 남음",
-                                  "lineHeight": "$lh-body",
-                                  "fontFamily": "$font-body",
-                                  "fontSize": "$fs-body",
-                                  "fontWeight": "$fw-medium"
-                                },
-                                {
-                                  "type": "text",
                                   "id": "fSX2o",
                                   "name": "약 1개 재고 문의",
                                   "fill": "$on-dark-2",
                                   "content": "약 1개 재고 문의",
                                   "lineHeight": "$lh-body",
                                   "fontFamily": "$font-body",
-                                  "fontSize": "$fs-cap",
+                                  "fontSize": "$fs-sub",
                                   "fontWeight": "$fw-regular"
                                 }
                               ]
@@ -26256,20 +26032,20 @@
                               "type": "frame",
                               "id": "xsEgy",
                               "name": "큰 숫자",
-                              "gap": "$sp-2",
-                              "alignItems": "end",
+                              "layout": "vertical",
+                              "gap": "$sp-1",
                               "children": [
                                 {
                                   "type": "text",
                                   "id": "D7AFqu",
                                   "name": "10",
-                                  "fill": "$mint",
-                                  "content": "10",
-                                  "lineHeight": "$lh-number",
+                                  "fill": "$on-dark",
+                                  "content": "10분간 유효",
+                                  "lineHeight": "$lh-title",
                                   "fontFamily": "$font-body",
-                                  "fontSize": "$fs-display",
+                                  "fontSize": "$fs-title",
                                   "fontWeight": "$fw-bold",
-                                  "letterSpacing": "$ls-display"
+                                  "letterSpacing": "$ls-title"
                                 },
                                 {
                                   "type": "frame",
@@ -26279,24 +26055,13 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "VAu9z",
-                                      "name": "분간 유효",
-                                      "fill": "$on-dark",
-                                      "content": "분간 유효",
-                                      "lineHeight": "$lh-body",
-                                      "fontFamily": "$font-body",
-                                      "fontSize": "$fs-body",
-                                      "fontWeight": "$fw-medium"
-                                    },
-                                    {
-                                      "type": "text",
                                       "id": "mPMDq",
                                       "name": "환자 화면에 '○분 전 응답'",
                                       "fill": "$on-dark-2",
                                       "content": "환자 화면에 '○분 전 응답'으로 표시",
                                       "lineHeight": "$lh-body",
                                       "fontFamily": "$font-body",
-                                      "fontSize": "$fs-cap",
+                                      "fontSize": "$fs-sub",
                                       "fontWeight": "$fw-regular"
                                     }
                                   ]
@@ -26757,20 +26522,20 @@
                           "type": "frame",
                           "id": "fMBvz",
                           "name": "큰 숫자",
-                          "gap": "$sp-2",
-                          "alignItems": "end",
+                          "layout": "vertical",
+                          "gap": "$sp-1",
                           "children": [
                             {
                               "type": "text",
                               "id": "xW4mN",
                               "name": "20",
-                              "fill": "$mint",
-                              "content": "20",
-                              "lineHeight": "$lh-number",
+                              "fill": "$on-dark",
+                              "content": "20분 후 방문 예정",
+                              "lineHeight": "$lh-title",
                               "fontFamily": "$font-body",
-                              "fontSize": "$fs-display",
+                              "fontSize": "$fs-h1",
                               "fontWeight": "$fw-bold",
-                              "letterSpacing": "$ls-display"
+                              "letterSpacing": "$ls-title"
                             },
                             {
                               "type": "frame",
@@ -26780,24 +26545,13 @@
                               "children": [
                                 {
                                   "type": "text",
-                                  "id": "smAcc",
-                                  "name": "분 후 방문 예정",
-                                  "fill": "$on-dark",
-                                  "content": "분 후 방문 예정",
-                                  "lineHeight": "$lh-body",
-                                  "fontFamily": "$font-body",
-                                  "fontSize": "$fs-body",
-                                  "fontWeight": "$fw-medium"
-                                },
-                                {
-                                  "type": "text",
                                   "id": "A6L90",
                                   "name": "연락처: 환자가 전달에 동의하",
                                   "fill": "$on-dark-2",
                                   "content": "연락처: 환자가 전달에 동의하지 않음",
                                   "lineHeight": "$lh-body",
                                   "fontFamily": "$font-body",
-                                  "fontSize": "$fs-cap",
+                                  "fontSize": "$fs-sub",
                                   "fontWeight": "$fw-regular"
                                 }
                               ]
@@ -28581,20 +28335,20 @@
                               "type": "frame",
                               "id": "zFKhk",
                               "name": "큰 숫자",
-                              "gap": "$sp-2",
-                              "alignItems": "end",
+                              "layout": "vertical",
+                              "gap": "$sp-1",
                               "children": [
                                 {
                                   "type": "text",
                                   "id": "lX65J",
                                   "name": "3",
-                                  "fill": "$mint",
-                                  "content": "3",
-                                  "lineHeight": "$lh-number",
+                                  "fill": "$on-dark",
+                                  "content": "3개 품목 자동 응답 중",
+                                  "lineHeight": "$lh-title",
                                   "fontFamily": "$font-body",
-                                  "fontSize": "$fs-display",
+                                  "fontSize": "$fs-h1",
                                   "fontWeight": "$fw-bold",
-                                  "letterSpacing": "$ls-display"
+                                  "letterSpacing": "$ls-title"
                                 },
                                 {
                                   "type": "frame",
@@ -28604,24 +28358,13 @@
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "VyP5n",
-                                      "name": "개 품목 자동 응답 중",
-                                      "fill": "$on-dark",
-                                      "content": "개 품목 자동 응답 중",
-                                      "lineHeight": "$lh-body",
-                                      "fontFamily": "$font-body",
-                                      "fontSize": "$fs-body",
-                                      "fontWeight": "$fw-medium"
-                                    },
-                                    {
-                                      "type": "text",
                                       "id": "V7D467",
                                       "name": "1개는 내일 꺼져요",
                                       "fill": "$on-dark-2",
                                       "content": "1개는 내일 꺼져요",
                                       "lineHeight": "$lh-body",
                                       "fontFamily": "$font-body",
-                                      "fontSize": "$fs-cap",
+                                      "fontSize": "$fs-sub",
                                       "fontWeight": "$fw-regular"
                                     }
                                   ]
@@ -31159,17 +30902,6 @@
                             0
                           ],
                           "children": [
-                            {
-                              "type": "text",
-                              "id": "V7cYF",
-                              "name": "—",
-                              "fill": "$line",
-                              "content": "—",
-                              "lineHeight": "$lh-number",
-                              "fontFamily": "$font-body",
-                              "fontSize": "$fs-display",
-                              "fontWeight": "$fw-medium"
-                            },
                             {
                               "type": "text",
                               "id": "bPcfR",
