@@ -25208,6 +25208,32 @@
                                               "fontWeight": "$fw-medium"
                                             }
                                           ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "bwDmQ",
+                                          "name": "자동 응답 상태",
+                                          "fill": "$mint-soft",
+                                          "cornerRadius": "$r-sm",
+                                          "stroke": "$clear",
+                                          "padding": [
+                                            "$sp-1",
+                                            "$sp-2"
+                                          ],
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "pqRlz",
+                                              "name": "라벨",
+                                              "fill": "$teal-text",
+                                              "content": "자동 응답",
+                                              "lineHeight": "$lh-body",
+                                              "fontFamily": "$font-body",
+                                              "fontSize": "$fs-cap",
+                                              "fontWeight": "$fw-medium"
+                                            }
+                                          ]
                                         }
                                       ]
                                     },
@@ -27542,6 +27568,32 @@
                                               "name": "시연용",
                                               "fill": "$text-2",
                                               "content": "시연용",
+                                              "lineHeight": "$lh-body",
+                                              "fontFamily": "$font-body",
+                                              "fontSize": "$fs-cap",
+                                              "fontWeight": "$fw-medium"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "E84adE",
+                                          "name": "자동 응답 상태",
+                                          "fill": "$mint-soft",
+                                          "cornerRadius": "$r-sm",
+                                          "stroke": "$clear",
+                                          "padding": [
+                                            "$sp-1",
+                                            "$sp-2"
+                                          ],
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "PAlWq",
+                                              "name": "라벨",
+                                              "fill": "$teal-text",
+                                              "content": "자동 응답",
                                               "lineHeight": "$lh-body",
                                               "fontFamily": "$font-body",
                                               "fontSize": "$fs-cap",
@@ -30179,6 +30231,32 @@
                                               "fontWeight": "$fw-medium"
                                             }
                                           ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "pvcDV",
+                                          "name": "자동 응답 상태",
+                                          "fill": "$mint-soft",
+                                          "cornerRadius": "$r-sm",
+                                          "stroke": "$clear",
+                                          "padding": [
+                                            "$sp-1",
+                                            "$sp-2"
+                                          ],
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "ReALg",
+                                              "name": "라벨",
+                                              "fill": "$teal-text",
+                                              "content": "자동 응답",
+                                              "lineHeight": "$lh-body",
+                                              "fontFamily": "$font-body",
+                                              "fontSize": "$fs-cap",
+                                              "fontWeight": "$fw-medium"
+                                            }
+                                          ]
                                         }
                                       ]
                                     },
@@ -31677,6 +31755,32 @@
                                               "fontWeight": "$fw-medium"
                                             }
                                           ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "SV3RL",
+                                          "name": "자동 응답 상태",
+                                          "fill": "$mint-soft",
+                                          "cornerRadius": "$r-sm",
+                                          "stroke": "$clear",
+                                          "padding": [
+                                            "$sp-1",
+                                            "$sp-2"
+                                          ],
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "hUHo2",
+                                              "name": "라벨",
+                                              "fill": "$teal-text",
+                                              "content": "자동 응답",
+                                              "lineHeight": "$lh-body",
+                                              "fontFamily": "$font-body",
+                                              "fontSize": "$fs-cap",
+                                              "fontWeight": "$fw-medium"
+                                            }
+                                          ]
                                         }
                                       ]
                                     },
@@ -33160,6 +33264,32 @@
                                               "name": "시연용",
                                               "fill": "$text-2",
                                               "content": "시연용",
+                                              "lineHeight": "$lh-body",
+                                              "fontFamily": "$font-body",
+                                              "fontSize": "$fs-cap",
+                                              "fontWeight": "$fw-medium"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "RrJv7",
+                                          "name": "자동 응답 상태",
+                                          "fill": "$mint-soft",
+                                          "cornerRadius": "$r-sm",
+                                          "stroke": "$clear",
+                                          "padding": [
+                                            "$sp-1",
+                                            "$sp-2"
+                                          ],
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "mweRh",
+                                              "name": "라벨",
+                                              "fill": "$teal-text",
+                                              "content": "자동 응답",
                                               "lineHeight": "$lh-body",
                                               "fontFamily": "$font-body",
                                               "fontSize": "$fs-cap",
@@ -36998,7 +37128,6 @@
                           "name": "Box",
                           "width": "fill_container",
                           "justifyContent": "space_between",
-                          "alignItems": "end",
                           "children": [
                             {
                               "type": "frame",
@@ -37010,25 +37139,60 @@
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "TglfB",
-                                  "name": "Chip",
-                                  "fill": "#FFFFFF1F",
-                                  "cornerRadius": "$r-sm",
-                                  "padding": [
-                                    "$sp-1",
-                                    "$sp-2"
-                                  ],
+                                  "id": "WWwU3",
+                                  "name": "칩 줄",
+                                  "gap": "$sp-2",
+                                  "alignItems": "center",
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "WnZKU",
-                                      "name": "시연용",
-                                      "fill": "$on-dark",
-                                      "content": "시연용",
-                                      "lineHeight": "$lh-body",
-                                      "fontFamily": "$font-body",
-                                      "fontSize": "$fs-cap",
-                                      "fontWeight": "$fw-medium"
+                                      "type": "frame",
+                                      "id": "TglfB",
+                                      "name": "Chip",
+                                      "fill": "#FFFFFF1F",
+                                      "cornerRadius": "$r-sm",
+                                      "padding": [
+                                        "$sp-1",
+                                        "$sp-2"
+                                      ],
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "WnZKU",
+                                          "name": "시연용",
+                                          "fill": "$on-dark",
+                                          "content": "시연용",
+                                          "lineHeight": "$lh-body",
+                                          "fontFamily": "$font-body",
+                                          "fontSize": "$fs-cap",
+                                          "fontWeight": "$fw-medium"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "P7K6nw",
+                                      "name": "자동 응답 상태",
+                                      "fill": "$mint-soft",
+                                      "cornerRadius": "$r-sm",
+                                      "stroke": "$clear",
+                                      "padding": [
+                                        "$sp-1",
+                                        "$sp-2"
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "k8cZg",
+                                          "name": "라벨",
+                                          "fill": "$teal-text",
+                                          "content": "자동 응답",
+                                          "lineHeight": "$lh-body",
+                                          "fontFamily": "$font-body",
+                                          "fontSize": "$fs-cap",
+                                          "fontWeight": "$fw-medium"
+                                        }
+                                      ]
                                     }
                                   ]
                                 },
