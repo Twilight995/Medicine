@@ -13260,6 +13260,34 @@
                         "$sp-6",
                         "$sp-5",
                         "$sp-6"
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ScSeV",
+                          "name": "찾으시는 약 이름을 입력하면 ",
+                          "fill": "$text-2",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "찾으시는 약 이름을 입력하면 이름이 맞는 약을 보여드려요.",
+                          "lineHeight": "$lh-body",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$fs-sub",
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wWnbP",
+                          "name": "인기순·추천순 목록은 제공하지",
+                          "fill": "$text-3",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "인기순·추천순 목록은 제공하지 않습니다.",
+                          "lineHeight": "$lh-body",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$fs-cap",
+                          "fontWeight": "normal"
+                        }
                       ]
                     }
                   ]
@@ -13527,6 +13555,19 @@
                           "fontFamily": "$font-body",
                           "fontSize": "$fs-title",
                           "fontWeight": "$fw-medium"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bH82v",
+                          "name": "제품명을 다시 확인해 주세요.",
+                          "fill": "$text-2",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "제품명을 다시 확인해 주세요. 띄어쓰기나 함량을 빼고 검색하면 찾을 수도 있어요.",
+                          "lineHeight": "$lh-body",
+                          "fontFamily": "$font-body",
+                          "fontSize": "$fs-sub",
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -15827,19 +15868,6 @@
                         "$sp-6"
                       ],
                       "children": [
-                        {
-                          "type": "text",
-                          "id": "ccWQl",
-                          "name": "상태 안내",
-                          "fill": "$text-2",
-                          "textGrowth": "fixed-width",
-                          "width": "fill_container",
-                          "content": "등록하면 함께 확인이 필요한 약이 있을 때 알려드려요",
-                          "lineHeight": "$lh-body",
-                          "fontFamily": "$font-body",
-                          "fontSize": "$fs-sub",
-                          "fontWeight": "$fw-regular"
-                        },
                         {
                           "type": "frame",
                           "id": "Xk1Ia",
@@ -55583,38 +55611,13 @@
                       "children": [
                         {
                           "type": "frame",
-                          "id": "P2JDX",
-                          "name": "Btn 수신함으로",
+                          "id": "lUwUl",
+                          "name": "Btn 최종 응답하기",
                           "width": "fill_container",
                           "height": 56,
                           "fill": "$mint",
                           "cornerRadius": "$r-lg",
-                          "gap": "$sp-2",
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "aFuk7",
-                              "name": "수신함으로",
-                              "fill": "$ink",
-                              "content": "수신함으로",
-                              "lineHeight": "$lh-body",
-                              "fontFamily": "$font-body",
-                              "fontSize": "$fs-body",
-                              "fontWeight": "$fw-bold"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "lUwUl",
-                          "name": "Btn 응답 바꾸기",
-                          "width": "fill_container",
-                          "height": 56,
-                          "cornerRadius": "$r-lg",
-                          "stroke": "#FFFFFF3D",
-                          "strokeWidth": "$stroke-ctrl",
+                          "stroke": "$clear",
                           "gap": "$sp-2",
                           "justifyContent": "center",
                           "alignItems": "center",
@@ -55625,16 +55628,43 @@
                               "name": "pencil",
                               "width": 18,
                               "height": 18,
-                              "icon": "pencil-simple-fill",
+                              "icon": "paper-plane-tilt-fill",
                               "library": "$icon-lib",
-                              "fill": "$on-dark"
+                              "fill": "$ink"
                             },
                             {
                               "type": "text",
                               "id": "HIrED",
                               "name": "응답 바꾸기",
-                              "fill": "$on-dark",
+                              "fill": "$ink",
                               "content": "최종 응답하기",
+                              "lineHeight": "$lh-body",
+                              "fontFamily": "$font-body",
+                              "fontSize": "$fs-body",
+                              "fontWeight": "$fw-bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "P2JDX",
+                          "name": "Btn 수신함으로",
+                          "width": "fill_container",
+                          "height": 56,
+                          "fill": "$clear",
+                          "cornerRadius": "$r-lg",
+                          "stroke": "$on-dark-stroke",
+                          "strokeWidth": "$stroke-ctrl",
+                          "gap": "$sp-2",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aFuk7",
+                              "name": "수신함으로",
+                              "fill": "$on-dark",
+                              "content": "수신함으로",
                               "lineHeight": "$lh-body",
                               "fontFamily": "$font-body",
                               "fontSize": "$fs-body",
@@ -59323,6 +59353,7 @@
                       "id": "aXD8O",
                       "name": "Top",
                       "width": "fill_container",
+                      "height": "fill_container",
                       "layout": "vertical",
                       "gap": "$sp-4",
                       "padding": [
@@ -59437,9 +59468,12 @@
                     {
                       "type": "frame",
                       "id": "LpXoL",
+                      "x": 0,
+                      "y": 288,
                       "name": "Sheet",
-                      "width": "fill_container",
-                      "height": "fill_container",
+                      "enabled": false,
+                      "width": "fill_container(390)",
+                      "height": "fill_container(460)",
                       "fill": "$surface",
                       "cornerRadius": [
                         "$r-xl",
